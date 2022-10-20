@@ -226,6 +226,7 @@ h2 {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: #fff;
 }
 
 .services {
@@ -304,10 +305,31 @@ h2 {
 .social-links li:focus {
   fill: var(--primary-white);
   background-color: var(--project-blue);
+  transition: all 0.3s;
 }
 
 figure svg {
   margin-top: 4px;
+}
+
+.clients {
+  fill: #afb1b8;
+  padding-top: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients li {
+  height: 92px;
+  width: 170px;
+  border: 1px solid #afb1b8;
+}
+
+.clients li:hover {
+  fill: var(--project-blue);
+  border-color: var(--project-blue);
+  transition: all 0.3s;
 }
 
 h3 {
