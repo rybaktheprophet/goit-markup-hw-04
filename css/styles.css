@@ -86,12 +86,14 @@ nav a:focus {
 }
 
 .contact-icon {
+  fill: #757575;
   margin-right: 10px;
   height: 16px;
   align-items: center;
 }
 
 .contact-icon-mail {
+  fill: #757575;
   margin-right: 10px;
   height: 16px;
   padding-top: 1px;
@@ -269,7 +271,7 @@ h2 {
 
 .social-links {
   list-style: none;
-  fill: #afb1b8;
+  --color4: #afb1b8;
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: 30px;
@@ -290,7 +292,7 @@ h2 {
 
 .social-links li:hover,
 .social-links li:focus {
-  fill: var(--primary-white);
+  --color4: var(--primary-white);
   background-color: var(--project-blue);
   transition: all 0.3s;
 }
@@ -314,7 +316,7 @@ figure svg {
 }
 
 .clients li:hover {
-  fill: var(--project-blue);
+  --color3: var(--project-blue);
   border-color: var(--project-blue);
   transition: all 0.3s;
 }
@@ -493,6 +495,5 @@ address {
 }
 
 .contact-icon {
-  color: #757575;
   fill: #757575;
 }
